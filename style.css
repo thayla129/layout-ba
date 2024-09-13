@@ -55,7 +55,7 @@ main{
 
 .conteudo{
     width: 50%;
-    background-color: pink;
+    background-color: white;
     padding-right: 128px;
     display: flex;
     flex-direction: column;
@@ -88,15 +88,28 @@ main{
     border-radius: 50%;
     background-color: lightgray;
 }
+
+.social-icon {
+    height: 96px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 50%;
+    font-size: 48px;
+    color: #000;
+}
+
 .destaque{
     width: 50%;
-    background-color: blue;
+    background-color: red;
 }
 
 footer{
     height: 100px;
-    font-display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    color: lightgray
+    color: black;
 }
