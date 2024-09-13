@@ -14,3 +14,25 @@ ul, ol, li{
 }
 
 /* FIM RESET */
+
+body{
+    height: 100hv;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 200px;
+    background-color: lightblue;
+
+}
+
+main{
+    flex-grow: 100px;
+    background-color: red;
+}
+
+footer{
+    height: 100px;
+    background-color: blue;
+}
