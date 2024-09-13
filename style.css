@@ -35,12 +35,21 @@ header{
 }
 
 .logo{
-    height: 80px;
-    width: 80px;
-    background-color: lightgray;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    
 
 }
 
+.logo img{
+    width: 200px;
+    height: 150px;
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+
+}
 .menu ul{
     display: flex;
     gap: 32px;
@@ -64,12 +73,14 @@ main{
 
 
 }
+
 .conteudo h1{
     font-size: 80px;
-
+    height: 90px;
 }
+
 .conteudo p{
-    font-size: 48px;
+    font-size: 45px;
 }
 .conteudo button{
     height: 64px;
@@ -102,7 +113,7 @@ main{
 }
 
 .destaque{
-    width: 100%;
+    width: 45%;
     height: 500px;
     background-color: white;
     background-size: cover;
